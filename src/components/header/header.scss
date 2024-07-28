@@ -1,0 +1,27 @@
+nav {
+    background: #029eb7;
+    transition: .3s ease-in-out;
+    .navbar-toggler {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        margin-left: auto !important;
+        justify-content: flex-end !important;
+        gap: 30px;
+        a {
+            width: fit-content;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding: 15px 0;
+            font-weight: 500;
+        }
+    }
+}
+
+nav.scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    transition: .3s ease-in-out;
+}
